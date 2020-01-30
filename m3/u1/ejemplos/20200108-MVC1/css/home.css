@@ -1,0 +1,11 @@
+body{
+    background-color:#ccc;
+}
+ul{
+    margin:10px;
+    padding-left:10px;
+}
+
+li{
+    list-style:disc;
+}

@@ -1,0 +1,12 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+
+      <h4 class="panel-title">
+        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+        <a data-toggle="collapse" aria-expanded="false" data-parent="#{id}" href="#{href}">{titulo}</a>
+      </h4>
+    </div>
+    <div id="{href}" class="panel-collapse collapse {abierto}">
+      <div class="panel-body">{contenido}</div>
+    </div>
+  </div>

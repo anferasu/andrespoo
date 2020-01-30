@@ -1,0 +1,17 @@
+<nav class="navbar {clases}">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#{nombre}">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="{enlaceHome}">{home}</a>
+    </div>
+    <div class="collapse navbar-collapse" id="{nombre}">
+      <ul class="nav navbar-nav">
+        {elementos}
+      </ul>
+    </div>
+  </div>
+</nav>

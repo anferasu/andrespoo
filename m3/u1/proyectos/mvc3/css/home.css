@@ -1,0 +1,26 @@
+body{
+    background-color:#ccc;
+}
+
+.listado{
+    display:table;   
+    margin:10px auto;
+    border:2px solid #007bff;
+}
+
+.listado ul{
+    background-color:#f2f2f3;
+    display:table-row;
+}
+
+.listado li{
+    display:table-cell;
+    vertical-align:middle;
+    border:1px solid #000;
+    padding:20px;
+}
+
+.listado img{
+    width:25px;
+}
+

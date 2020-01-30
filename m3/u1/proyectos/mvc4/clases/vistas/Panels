@@ -1,0 +1,7 @@
+<div class="panel-group {Columnas}">
+<div class="panel {Clases}">
+  <div class="panel-heading">{Titulo}</div>
+  <div class="panel-body">{Contenido}</div>
+  <div class="panel-footer">{Pie}</div>
+</div>
+</div>

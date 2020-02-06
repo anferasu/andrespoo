@@ -4,7 +4,7 @@ $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
 $config = [
-    'id' => 'basic',
+    
     'id' => 'ejemplo20200204',
     'basePath' => dirname(__DIR__),
     'name'=> 'Ejemplo de alumnos',
@@ -50,7 +50,7 @@ $config = [
         
         'urlManager' => [
             'enablePrettyUrl' => true,
-            'showScriptName' => false,
+            'showScriptName' => true,
             'rules' => [
             ],
         ],

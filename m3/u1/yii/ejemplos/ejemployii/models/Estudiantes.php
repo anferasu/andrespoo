@@ -28,7 +28,7 @@ class Estudiantes extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['nombre', 'apellidos', 'edad'], 'required'],
+            [['nombre', 'apellidos', 'edad'], 'required',"mensaje"=>"Es obligatorio"],
             [['edad'], 'integer'],
             [['nombre', 'apellidos'], 'string', 'max' => 20],
         ];

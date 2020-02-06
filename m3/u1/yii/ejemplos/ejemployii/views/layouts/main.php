@@ -58,7 +58,7 @@ AppAsset::register($this);
     <div class="container">
         <p class="pull-left"><i class="glyphicon glyphicon-home"> Pagina de inicio</i></p>
 
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <p class="pull-right"><i class="fa fa-phone"></i> 99999999</p>
     </div>
 </footer>
 

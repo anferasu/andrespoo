@@ -70,5 +70,25 @@ class SiteController extends Controller {
             "data"=>$dataProvider,
         ]);
     }
+    
+     public function actionPaginas() {
+        /**
+         * realizar la consulta select * from alumnos
+         */
+        $query = Estudiantes::find(); //activequery
+
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query,
+            'pagination' => [
+                'pageSize' => 3,
+            ],
+        ]);
+
+
+        return $this->render('paginas',[
+            "data"=>$dataProvider,
+        ]);
+    }
+    
 
 }
